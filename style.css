@@ -1,0 +1,67 @@
+:root {
+    --primary-color : orange;
+    --secondary-color: black;
+}
+
+body {
+    font-family: '', serif;
+    background-color: var(--primary-color);
+}
+
+.txt--output {
+    height: 35vh;
+}
+
+.app--content{
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    padding: 2rem 1.5rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    box-shadow:  2rem 2rem 4rem  var(--secondary-color);
+}
+
+#txt--date{
+    border-radius: 0.35rem;
+    padding: 0.2rem;
+    margin: 0.4rem;
+    font-family: inherit;
+    font-weight: bold;
+    outline: none;
+}
+
+#btn--check{
+    margin: 0.4rem;
+    padding: 0.4rem;
+    border-radius: 0.7rem;
+    border: 0.1rem solid var(--primary-color);
+    font-weight: bold;
+    color: var(--secondary-color);
+    background:var(--primary-color);
+    cursor: pointer;
+}
+
+#btn--check:hover{
+    color: var(--primary-color);
+    border: 0.1rem solid var(--primary-color);
+
+}
+
+.txt--output{
+    font-size: medium;
+    line-height: 2rem;
+}
+
+.highlight{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 0 0.4rem;
+    color: white;
+}
+
