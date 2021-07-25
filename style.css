@@ -8,13 +8,14 @@ body {
     background-color: var(--primary-color);
 }
 
-.txt--output {
+/* .txt--output {
     height: 35vh;
-}
+} */
 
 .app--content{
     width: 100%;
     max-width: 500px;
+    height: 400px;
     margin: auto;
     padding: 2rem 1.5rem;
     position: absolute;
@@ -48,13 +49,15 @@ body {
 }
 
 #btn--check:hover{
-    color: var(--primary-color);
+    background-color : var(--secondary-color);
+    color : var(--primary-color);
     border: 0.1rem solid var(--primary-color);
 
 }
 
 .txt--output{
-    font-size: medium;
+    margin-top:5rem;
+    font-size: 1.3rem;
     line-height: 2rem;
 }
 
@@ -63,5 +66,14 @@ body {
     font-size: 1.5rem;
     padding: 0 0.4rem;
     color: white;
+}
+#gif{
+    display: none;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+#gif.display{
+    visibility: visible;
 }
 
